@@ -45,3 +45,29 @@ if __name__ == '__main__':
 
     str10 = 'xxxxxxaaaxxxxxxx'
     print(str10.translate(str.maketrans('x', 'b')))
+
+    print('{0} love {1}!'.format('I', 'you'))
+    print('{a} love {b}!'.format(a='I', b='you'))
+    print('{{0}}'.format('****'))
+    print('{0:.1f}{1}'.format(27.658, 'GB'))
+
+    print('%c %c %c' % (97, 98, 99))
+    print('%s' % 'I love you!')
+    print('%d + %d = %d' % (1, 1, 1+1))
+    print('%o' % 10)
+    print('%x' % 10)
+    print('%X' % 10)
+    print('%f' % 27.658)
+    print('%e' % 27.658)
+    print('%E' % 27.658)
+    print('%g' % 27.658)
+
+    print('%5.1f' % 27.658)
+    print('%.2e' % 27.658)
+    print('%10d' % 5)
+    print('%-10d' % 5)
+    print('%+d' % -5)
+    print('%#o' % 10)
+    print('%#X' % 108)
+    print('%010d' % 5)
+    print('%-010d' % 5)
