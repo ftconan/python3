@@ -1,0 +1,40 @@
+# coding=utf-8
+
+"""
+@author: conan
+@date: 2018/7/21
+"""
+import json
+import random
+import time
+import urllib.request
+import urllib.parse
+import hashlib
+
+
+if __name__ == '__main__':
+    content = input('请输入需要翻译的内容: ')
+    url = 'http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule&sessionFrom=https://www.google.com/'
+    data = dict()
+    data['i'] = content
+    data['from'] = 'AUTO'
+    data['to'] = 'AUTO'
+    data['smartresult'] = 'dict'
+    data['client'] = 'fanyideskweb'
+    data['salt'] = str(int(time.time()*1000) + random.randint(1,10))
+    data['doctype'] = 'json'
+    data['version'] = '2.1'
+    data['keyfrom'] = 'fanyi.web'
+    data['action'] = 'FY_BY_CLICKBUTTION'
+    data['typoResult'] = 'false'
+    sign = data['client'] + data['i'] + data['salt'] + 'rY0D^0\'nM0}g5Mm1z%1G4'
+    data['sign'] = hashlib.md5(sign.encode('utf-8')).hexdigest()
+    data = urllib.parse.urlencode(data).encode('utf-8')
+
+    translate_response = urllib.request.urlopen(url, data)
+    translate_result = translate_response.read().decode('utf-8')
+    try:
+        target = json.loads(translate_result)
+        print('{0} 翻译结果: {1}'.format(content, target['translateResult'][0][0]['tgt']))
+    except Exception as e:
+        print(e)
