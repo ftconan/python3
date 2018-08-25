@@ -15,5 +15,5 @@
 
 
 ### Fluent Python
-1. list is not the only answer(arrays, memoryview, numpy and scipy, deque)
+1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
  
