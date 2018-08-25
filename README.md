@@ -12,3 +12,8 @@
 10. 计时器(timer)
 11. 爬取有道词典翻译
 12. 代理ip查询
+
+
+### Fluent Python
+1. list is not the only answer(arrays, memoryview, numpy and scipy, deque)
+ 
