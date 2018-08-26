@@ -15,5 +15,7 @@
 
 
 ### Fluent Python
+#### data structures
 1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
- 
+#### function as object
+1. list comprehension replace (map, filter, reduce function)
