@@ -20,3 +20,4 @@
 #### function as object
 1. list comprehension can replace (map, filter, reduce function)
 2. reduce is not built-in function in Python3(from fuctools import reduce)
+3. decorators
