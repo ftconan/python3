@@ -55,8 +55,3 @@ if __name__ == '__main__':
     print(tag(content='testing', name="img"))
     my_tag = {'name': 'img', 'title': 'Sunset Boulevard', 'src': 'sunset.jpg', 'cls': 'framed'}
     print(tag(**my_tag))
-
-
-
-
-
