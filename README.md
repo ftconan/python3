@@ -21,3 +21,7 @@
 1. list comprehension can replace (map, filter, reduce function)
 2. reduce is not built-in function in Python3(from fuctools import reduce)
 3. decorators
+
+### python start
+1. remove ad text
+2. 21 point
