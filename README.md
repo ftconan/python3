@@ -25,3 +25,6 @@
 ### python start
 1. remove ad text
 2. 21 point
+
+### python machine algorithm
+1. KNN
