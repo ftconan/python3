@@ -28,3 +28,7 @@
 
 ### python machine algorithm
 1. KNN
+
+### Numpy
+1. description
+2. array structure
