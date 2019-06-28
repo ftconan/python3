@@ -35,3 +35,4 @@
 
 ### learn python core skill
 1. lambda_demo
+2. class_demo
