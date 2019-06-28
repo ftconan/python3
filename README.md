@@ -32,3 +32,6 @@
 ### Numpy
 1. description
 2. array structure
+
+### learn python core skill
+1. lambda_demo
