@@ -37,3 +37,4 @@
 1. lambda_demo
 2. class_demo
 3. search_engine_demo
+4. decorator_demo
