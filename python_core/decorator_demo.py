@@ -4,6 +4,7 @@
 @date: 2019/7/15
 """
 import functools
+import time
 
 
 def func(message):
@@ -265,6 +266,142 @@ def example():
     print('hello world')
 
 
+def new_decorator1(func0):
+    """
+    new decorator1
+    :param func0:
+    :return:
+    """
+    @functools.wraps(func0)
+    def wrapper(*args, **kwargs):
+        """
+        wrapper
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        print('execute decorator1')
+        func0(*args, **kwargs)
+
+    return wrapper
+
+
+def new_decorator2(fun):
+    """
+    new decorator2
+    :param fun:
+    :return:
+    """
+    @functools.wraps(fun)
+    def wrapper(*args, **kwargs):
+        print('execute decorator2')
+        func(*args, **kwargs)
+
+    return wrapper
+
+
+@new_decorator1
+@new_decorator2
+def new_greet(message):
+    """
+    new greet
+    :param message:
+    :return:
+    """
+    print(message)
+
+
+def check_user_logged_in(request):
+    """
+    check user logged in
+    :param request:
+    :return:
+    """
+    if not request:
+        return False
+
+    return True
+
+
+def authenticate(new_func1):
+    """
+    authenticate
+    :param new_func1:
+    :return:
+    """
+    @functools.wraps(new_func1)
+    def wrapper(*args, **kwargs):
+        request = args[0]
+        if check_user_logged_in(request):
+            return new_func1(*args, **kwargs)
+        else:
+            raise Exception('Authentication failed')
+
+    return wrapper
+
+
+def log_execution_time(new_func2):
+    """
+    log execution time
+    :param new_func2:
+    :return:
+    """
+    @functools.wraps(new_func2)
+    def wrapper(*args, **kwargs):
+        start = time.perf_counter()
+        res = new_func2(*args, **kwargs)
+        end = time.perf_counter()
+        print('{} took {} ms'.format(func.__name__, (end - start) * 1000))
+
+    return wrapper
+
+
+@log_execution_time
+def calculate_similarity(items):
+    """
+    calculate similarity
+    :param items:
+    :return:
+    """
+    return items
+
+
+def validation_check(input):
+    """
+    validation check
+    :param input:
+    :return:
+    """
+    @functools.wraps(input)
+    def wrapper(*args, **kwargs):
+        pass
+
+    return wrapper
+
+
+@validation_check
+def neural_network_training(param1, param2, **kwargs):
+    """
+    neural network training
+    :param param1:
+    :param param2:
+    :param kwargs:
+    :return:
+    """
+    return True
+
+
+@functools.lru_cache
+def check(param1, **kwargs):
+    """
+    check
+    :param param1:
+    :param kwargs:
+    :return:
+    """
+    return True
+
+
 if __name__ == '__main__':
     send_message = func
     send_message('hello world')
@@ -292,3 +429,5 @@ if __name__ == '__main__':
 
     example()
     example()
+
+    new_greet('hello world')
