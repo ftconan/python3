@@ -4,4 +4,5 @@ pkg-resources==0.0.0
 pylru==1.2.0
 python-dateutil==2.7.5
 pytz==2018.7
+PyYAML==5.1.1
 six==1.11.0

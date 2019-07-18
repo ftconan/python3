@@ -38,3 +38,4 @@
 2. class_demo
 3. search_engine_demo
 4. decorator_demo
+5. metaclass_demo
