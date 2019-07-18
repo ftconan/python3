@@ -1,41 +1,43 @@
 # python3
-### python3 实践
+
+## python3 practice
 1.  Hello World!
-2.  数字游戏
-3.  字符串方法(内置函数)
-4.  序列方法(列表，元组内置函数)
-5.  函数
-6.  字典
-7.  文件
+2.  number game
+3.  string method(built-in)
+4.  sequence method(list，tuple built-in)
+5.  function
+6.  dict
+7.  file
 8.  pickle
-9.  继承(fish)
-10. 计时器(timer)
-11. 爬取有道词典翻译
-12. 代理ip查询
+9.  inherit(fish)
+10. timer
+11. craw youdao dictionary translation
+12. proxy ip select
 
+## Fluent Python
 
-### Fluent Python
-#### data structures
+### data structures
 1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
-#### function as object
+
+### function as object
 1. list comprehension can replace (map, filter, reduce function)
 2. reduce is not built-in function in Python3(from fuctools import reduce)
 3. decorators
 
-### python start
+## python start
 1. remove ad text
 2. 21 point
 
-### python machine algorithm
+## python machine algorithm
 1. KNN
 
-### Numpy
+## Numpy
 1. description
 2. array structure
 
-### learn python core skill
-1. lambda_demo
-2. class_demo
-3. search_engine_demo
-4. decorator_demo
-5. metaclass_demo
+## learn python core skill
+1. lambda demo
+2. class demo
+3. search_engine demo
+4. decorator demo
+5. metaclass demo
