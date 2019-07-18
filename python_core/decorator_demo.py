@@ -349,9 +349,9 @@ def log_execution_time(new_func2):
     @functools.wraps(new_func2)
     def wrapper(*args, **kwargs):
         start = time.perf_counter()
-        res = new_func2(*args, **kwargs)
+        new_func2(*args, **kwargs)
         end = time.perf_counter()
-        print('{} took {} ms'.format(func.__name__, (end - start) * 1000))
+        print('{} took {} s'.format(new_func2.__name__, (end - start)))
 
     return wrapper
 
@@ -391,7 +391,7 @@ def neural_network_training(param1, param2, **kwargs):
     return True
 
 
-@functools.lru_cache
+@functools.lru_cache(maxsize=128, typed=False)
 def check(param1, **kwargs):
     """
     check

@@ -35,9 +35,10 @@
 1. description
 2. array structure
 
-## learn python core skill
+## python core skill
 1. lambda demo
 2. class demo
 3. search_engine demo
 4. decorator demo
 5. metaclass demo
+6. iterator generator demo
