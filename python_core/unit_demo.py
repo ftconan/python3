@@ -21,6 +21,8 @@ def sort(arr):
                 arr[i] = arr[j]
                 arr[j] = tmp
 
+    return arr
+
 
 class TestSort(unittest.TestCase):
     """
@@ -63,8 +65,70 @@ class A(unittest.TestCase):
         a.m3.assert_called_with("custom_val")
 
 
+def side_effect(arg):
+    """
+    side_effect
+    :param arg:
+    :return:
+    """
+    if arg < 0:
+        return 1
+    else:
+        return 2
+
+
+def preprocess(arr):
+    ...
+    ...
+    return arr
+
+
+def postprocess(arr):
+    ...
+    return arr
+
+
+def work(arr):
+    arr = preprocess(arr)
+    arr = sort(arr)
+    arr = postprocess(arr)
+    return arr
+
+
+
+def test_preprocess(self):
+    pass
+
+
+def test_sort(self):
+    pass
+
+
+def test_postprocess(self):
+    pass
+
+
+def test_work(self, mock_post_process, mock_sort, mock_preprocess):
+    """
+    test_work
+    :param self:
+    :param mock_post_process:
+    :param mock_sort:
+    :param mock_preprocess:
+    :return:
+    """
+    work(self)
+    self.assertTrue(mock_post_process.called)
+    self.assertTrue(mock_sort.called)
+    self.assertTrue(mock_preprocess.called)
+
+
 if __name__ == '__main__':
     # unittest.main(argv=['first-arg-is-ignored'], exit=False)
 
     unittest.main()
 
+    mock = MagicMock()
+    mock.side_effect = side_effect
+    print(mock(-1))
+    print(mock(2))
