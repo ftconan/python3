@@ -7,7 +7,6 @@ import copy
 import json
 import ssl
 import time
-import timeit
 import _thread
 import requests
 import websocket

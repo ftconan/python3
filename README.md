@@ -50,3 +50,7 @@
 12. context demo
 13. unit demo
 14. qt_demo
+15. qt_crawler
+
+## Python Tricks
+1. Covering Your A** With Assertions
