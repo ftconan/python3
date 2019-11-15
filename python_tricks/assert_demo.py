@@ -49,6 +49,5 @@ if __name__ == '__main__':
     shoes = {'name': 'Fancy Shoes', 'price': 14900}
     apply_discount(shoes, 0.25)
     apply_discount(shoes, 2.0)
-    apply_discount(prod, 2.0)
     #  SyntaxWarning: assertion is always true
     assert(1 == 2, 'This should fail')

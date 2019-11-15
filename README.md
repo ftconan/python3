@@ -53,4 +53,7 @@
 15. qt_crawler
 
 ## Python Tricks
-1. Covering Your A** With Assertions
+1. Introduction
+2. Patterns for Cleaner Python
+    2.1. Covering Your A** With Assertions
+    2.2. Complacent Comma Placement
