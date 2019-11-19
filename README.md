@@ -59,4 +59,4 @@
  2. Complacent Comma Placement
  3. Context Managers and the with Statement
  4. Underscores, Dunders, and More
- 
+ 5. A Shocking Truth About String Formatting
