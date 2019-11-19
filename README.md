@@ -60,3 +60,4 @@
  3. Context Managers and the with Statement
  4. Underscores, Dunders, and More
  5. A Shocking Truth About String Formatting
+ 6. “The Zen of Python” Easter Egg
