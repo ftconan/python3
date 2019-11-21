@@ -63,3 +63,4 @@
  6. “The Zen of Python” Easter Egg
 ### 3. Effective Function 
  1. Python’s Functions Are First-Class
+ 2. Lambdas Are Single-Expression Functions
