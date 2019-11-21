@@ -3,14 +3,19 @@
     @date: 2019/11/15
     @file: comma_demo.py
 """
+import os
 import threading
 from contextlib import contextmanager
+from data import DATA_DIR
+
+FILE_PATH = os.path.join(DATA_DIR, 'hello.txt')
 
 
 class ManagedFile:
     """
     ManagedFile
     """
+
     def __init__(self, name):
         self.name = name
 
@@ -31,17 +36,19 @@ def managed_file(name):
     :param name:
     :return:
     """
+    my_file = None
     try:
-        f = open(name, 'w')
-        yield f
+        my_file = open(name, 'w')
+        yield my_file
     finally:
-        f.close()
+        my_file.close()
 
 
 class Indenter:
     """
     Indenter
     """
+
     def __init__(self):
         self.level = 0
 
@@ -57,13 +64,11 @@ class Indenter:
         print('    ' * self.level + text)
 
 
-
-
 if __name__ == '__main__':
-    with open('../data/hello.txt', 'w') as f:
+    with open(FILE_PATH, 'w') as f:
         f.write('hello world')
 
-    f = open('hello.txt', 'w')
+    f = open(FILE_PATH, 'w')
     try:
         f.write('hello, world')
     finally:
@@ -82,12 +87,12 @@ if __name__ == '__main__':
         pass
 
     # ManagedFile Class
-    with ManagedFile('hello.txt') as f:
+    with ManagedFile(FILE_PATH) as f:
         f.write('hello, world!')
         f.write('bye now')
 
     # managed_file decoration
-    with managed_file('hello.txt') as f:
+    with managed_file(FILE_PATH) as f:
         f.write('hello, world!')
         f.write('bye now')
 

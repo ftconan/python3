@@ -14,16 +14,6 @@
 11. craw youdao dictionary translation
 12. proxy ip select
 
-## Fluent Python
-
-### data structures
-1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
-
-### function as object
-1. list comprehension can replace (map, filter, reduce function)
-2. reduce is not built-in function in Python3(from fuctools import reduce)
-3. decorators
-
 ## python start
 1. remove ad text
 2. 21 point
@@ -52,7 +42,17 @@
 14. qt_demo
 15. qt_crawler
 
-## Python Tricks
+## Fluent Python(book)
+
+### data structures
+1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
+
+### function as object
+1. list comprehension can replace (map, filter, reduce function)
+2. reduce is not built-in function in Python3(from fuctools import reduce)
+3. decorators
+
+## Python Tricks(book)
 ### 1. Introduction
 ### 2. Patterns for Cleaner Python
  1. Covering Your A** With Assertions
@@ -61,3 +61,5 @@
  4. Underscores, Dunders, and More
  5. A Shocking Truth About String Formatting
  6. “The Zen of Python” Easter Egg
+### 3. Effective Function 
+ 1. Python’s Functions Are First-Class

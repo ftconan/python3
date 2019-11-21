@@ -9,21 +9,22 @@ from string import Template
 SECRET = 'this-is-a-secret'
 
 
-def greet(name, question):
+def greet(new_name, question):
     """
     greet
-    :param name:
+    :param new_name:
     :param question:
     :return:
     """
     # return f"Hello, {name}! How's it {question}?"
-    return ("Hello, " + name + "! How's it " + question + "?")
+    return "Hello, " + new_name + "! How's it " + question + "?"
 
 
 class Error:
     """
     Error
     """
+
     def __init__(self):
         pass
 
