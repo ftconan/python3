@@ -64,3 +64,4 @@
 ### 3. Effective Function 
  1. Python’s Functions Are First-Class
  2. Lambdas Are Single-Expression Functions
+ 3. The Power of Decorators
