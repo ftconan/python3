@@ -133,5 +133,3 @@ if __name__ == '__main__':
     print(greet.__doc__)
     print(decorated_greet.__name__)
     print(decorated_greet.__doc__)
-
-
