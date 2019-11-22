@@ -71,3 +71,4 @@
 ### 4. Classes & OOP
  1. Object Comparisons: “is” vs “==”
  2. String Conversion (Every Class Needs a __repr__)
+ 3. Defining Your Own Exception Classes
