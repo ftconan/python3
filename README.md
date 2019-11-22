@@ -72,3 +72,4 @@
  1. Object Comparisons: “is” vs “==”
  2. String Conversion (Every Class Needs a __repr__)
  3. Defining Your Own Exception Classes
+ 4. Cloning Objects for Fun and Profit
