@@ -74,3 +74,6 @@
  3. Defining Your Own Exception Classes
  4. Cloning Objects for Fun and Profit
  5. Abstract Base Classes Keep Inheritance in Check
+ 6. What Namedtuples Are Good For
+ 7. Class vs Instance Variable Pitfalls
+
