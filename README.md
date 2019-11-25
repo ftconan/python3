@@ -77,3 +77,6 @@
  6. What Namedtuples Are Good For
  7. Class vs Instance Variable Pitfalls
  8. Instance, Class, and Static Methods Demystified
+### 5. Common Data Structures in Python
+ 1. Dictionaries, Maps, and Hashtables
+ 
