@@ -79,4 +79,5 @@
  8. Instance, Class, and Static Methods Demystified
 ### 5. Common Data Structures in Python
  1. Dictionaries, Maps, and Hashtables
+ 2. Array Data Structures
  
