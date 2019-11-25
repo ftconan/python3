@@ -76,3 +76,4 @@
  5. Abstract Base Classes Keep Inheritance in Check
  6. What Namedtuples Are Good For
  7. Class vs Instance Variable Pitfalls
+ 8. Instance, Class, and Static Methods Demystified
