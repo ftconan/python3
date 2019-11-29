@@ -38,4 +38,5 @@ if __name__ == '__main__':
     html_path = base_path + '/test.html'
     out_path = base_path + '/test.pdf'
 
+    pisa.showLogging()
     convert_html2pdf(html_path, out_path)
