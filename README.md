@@ -84,3 +84,4 @@
  3. Records, Structs, and Data Transfer Objects
  4. Sets and Multisets
  5. Stacks (LIFO)
+ 6. Queues (FIFOs)
