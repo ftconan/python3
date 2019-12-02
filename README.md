@@ -85,3 +85,4 @@
  4. Sets and Multisets
  5. Stacks (LIFO)
  6. Queues (FIFOs)
+ 7. Priority Queues
