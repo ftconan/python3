@@ -88,3 +88,4 @@
  7. Priority Queues
 ### 6. Looping & Iteration
  1. Writing Pythonic Loops
+ 2. Comprehending Comprehensions
