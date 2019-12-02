@@ -86,3 +86,5 @@
  5. Stacks (LIFO)
  6. Queues (FIFOs)
  7. Priority Queues
+### 6. Looping & Iteration
+ 1. Writing Pythonic Loops
