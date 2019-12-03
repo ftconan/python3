@@ -90,3 +90,4 @@
  1. Writing Pythonic Loops
  2. Comprehending Comprehensions
  3. List Slicing Tricks and the Sushi Operator
+ 4. Beautiful Iterators
