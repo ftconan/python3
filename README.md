@@ -93,4 +93,4 @@
  4. Beautiful Iterators
  5. Generators Are Simplified Iterators
  6. Generator Expressions
- 
+ 7. Iterator Chains
