@@ -94,3 +94,5 @@
  5. Generators Are Simplified Iterators
  6. Generator Expressions
  7. Iterator Chains
+### 7. Dictionary Tricks
+ 1. Dictionary Default Values
