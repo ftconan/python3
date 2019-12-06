@@ -96,3 +96,4 @@
  7. Iterator Chains
 ### 7. Dictionary Tricks
  1. Dictionary Default Values
+ 2. Sorting Dictionaries for Fun and Profit
