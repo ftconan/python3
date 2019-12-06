@@ -91,3 +91,4 @@
  2. Comprehending Comprehensions
  3. List Slicing Tricks and the Sushi Operator
  4. Beautiful Iterators
+ 5. Generators Are Simplified Iterators
