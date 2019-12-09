@@ -103,3 +103,4 @@
  6. Dictionary Pretty-Printing
 ### 8. Pythonic Productivity Techniques
  1. Exploring Python Modules and Objects
+ 2. Isolating Project Dependencies With Virtualenv
