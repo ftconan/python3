@@ -98,3 +98,4 @@
  1. Dictionary Default Values
  2. Sorting Dictionaries for Fun and Profit
  3. Emulating Switch/Case Statements With Dicts
+ 4. The Craziest Dict Expression in the West
