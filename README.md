@@ -105,3 +105,4 @@
  1. Exploring Python Modules and Objects
  2. Isolating Project Dependencies With Virtualenv
  3. Peeking Behind the Bytecode Curtain
+### 9. Closing Thoughts
