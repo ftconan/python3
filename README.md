@@ -101,3 +101,5 @@
  4. The Craziest Dict Expression in the West
  5. So Many Ways to Merge Dictionaries
  6. Dictionary Pretty-Printing
+### 8. Pythonic Productivity Techniques
+ 1. Exploring Python Modules and Objects
