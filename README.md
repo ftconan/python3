@@ -110,4 +110,5 @@
 ## Effective Python(book)
 ### 1. 用Pythonic方式思考
  1. 确认自己所用的python版本
-    
+ 2. 遵循PEP8风格之南
+ 3. 了解bytes,str与unicode的区别
