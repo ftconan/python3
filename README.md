@@ -106,3 +106,8 @@
  2. Isolating Project Dependencies With Virtualenv
  3. Peeking Behind the Bytecode Curtain
 ### 9. Closing Thoughts
+
+## Effective Python(book)
+### 1. 用Pythonic方式思考
+ 1. 确认自己所用的python版本
+    
