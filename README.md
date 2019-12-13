@@ -121,3 +121,4 @@
  10. 尽量用enumerate取代range
  11. 用zip函数同时遍历两个迭代器
  12. 不要在for和while循环后面写else块
+ 13. 合理利用try/except/else/finally结构中的每个代码块
