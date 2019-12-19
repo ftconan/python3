@@ -3,7 +3,6 @@
     @date: 2019/12/18
     @file: palindrome.py
 """
-import sys
 
 
 def is_palindrome(x: int) -> bool:
