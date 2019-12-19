@@ -3,7 +3,6 @@
     @date: 2019/12/19
     @file: rm_duplicate.py
 """
-from _ast import List
 
 
 def remove_duplicates(nums) -> int:
