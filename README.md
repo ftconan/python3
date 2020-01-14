@@ -143,3 +143,4 @@
  29. 用纯属性取代get和set方法
  30. 考虑用@property来代替属性重构
  31. 用描述符来改写需要复用的@property方法
+ 32. 用__getattr__，__getattribute__和__setattr__实现按需生成的属性
