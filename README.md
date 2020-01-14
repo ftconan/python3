@@ -137,3 +137,8 @@
  24. 以@classmethod形式的多态去通用地构建对象
  25. 用super初始化父类
  26. 只在使用Min-in组件制作工具类时进行多重继承
+ 27. 多用public属性，少用private属性
+ 28. 继承collection.abc以实现自定义容器类型
+### 4. 元类及属性
+ 29. 用纯属性取代get和set方法
+ 30. 考虑用@property来代替属性重构
