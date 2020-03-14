@@ -1,4 +1,19 @@
-# python3
+# Python3
+
+Python3 study notes
+
+- [Python3](#python3)
+    - [python3 practice](#python3 practice)
+    - [python start](#python start)
+    - [python machine algorithm](#python machine algorithm)
+    - [Numpy](#Numpy)
+    - [Fluent Python](#Fluent Python)
+    - [Python Tricks](#Python Tricks)
+    - [Effective Python](#Effective Python)
+    - [Python Tricks](#Python Tricks)
+    - [leetcode](#leetcode)
+
+---
 
 ## python3 practice
 1.  Hello World!
@@ -44,7 +59,6 @@
 15. qt_crawler
 
 ## Fluent Python(book)
-
 ### data structures
 1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
 
@@ -145,3 +159,29 @@
  31. 用描述符来改写需要复用的@property方法
  32. 用__getattr__，__getattribute__和__setattr__实现按需生成的属性
  33. 用元类来验证子类
+ 
+## leetcode
+### 算法
+1. 两数之和
+2. 整数反转
+3. 回文数
+4. 罗马数字转整数
+5. 最长公共前缀
+6. 有效的括号
+7. 删除排序数组中的重复项
+8. 移除元素
+9. 实现 strStr()
+10. 加一
+11. 最后一个单词的长度
+12. x 的平方根
+13. 二进制求和
+14. 搜索插入位置
+15. 只出现一次的数字
+16. 合并两个有序数组
+17. 多数元素
+18. 快乐数
+19. 旋转数组
+20. 2的幂
+21. 各位相加
+22. 缺失数字
+23. 3的幂
