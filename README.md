@@ -3,14 +3,14 @@
 Python3 study notes
 
 - [Python3](#python3)
-    - [python3 practice](#python3 practice)
-    - [python start](#python start)
-    - [python machine algorithm](#python machine algorithm)
+    - [python3 practice](#python3-practice)
+    - [python start](#python-start)
+    - [python machine algorithm](#python-machine-algorithm)
     - [Numpy](#Numpy)
-    - [Fluent Python](#Fluent Python)
-    - [Python Tricks](#Python Tricks)
-    - [Effective Python](#Effective Python)
-    - [Python Tricks](#Python Tricks)
+    - [Fluent Python](#Fluent-Python)
+    - [Python Tricks](#Python-Tricks)
+    - [Effective Python](#Effective-Python)
+    - [Python Tricks](#Python-Tricks)
     - [leetcode](#leetcode)
 
 ---
@@ -58,7 +58,7 @@ Python3 study notes
 14. qt_demo
 15. qt_crawler
 
-## Fluent Python(book)
+## Fluent Python
 ### data structures
 1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
 
@@ -67,7 +67,7 @@ Python3 study notes
 2. reduce is not built-in function in Python3(from fuctools import reduce)
 3. decorators
 
-## Python Tricks(book)
+## Python Tricks
 ### 1. Introduction
 ### 2. Patterns for Cleaner Python
  1. Covering Your A** With Assertions
@@ -121,7 +121,7 @@ Python3 study notes
  3. Peeking Behind the Bytecode Curtain
 ### 9. Closing Thoughts
 
-## Effective Python(book)
+## Effective Python
 ### 1. 用Pythonic方式思考
  1. 确认自己所用的python版本
  2. 遵循PEP8风格之南
