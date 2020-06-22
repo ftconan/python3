@@ -5,7 +5,6 @@ Python3 study notes
 - [Python3](#python3)
     - [python3 practice](#python3-practice)
     - [python start](#python-start)
-    - [Flask](#Flask)
     - [python machine algorithm](#python-machine-algorithm)
     - [Numpy](#Numpy)
     - [Fluent Python](#Fluent-Python)
@@ -34,12 +33,6 @@ Python3 study notes
 ## python start
 1. remove ad text
 2. 21 point#
-
-# Flask
-1. 前言
-2. 针对高级程序员的前言
-3. 安装
-4. 快速上手
 
 ## python machine algorithm
 1. KNN
