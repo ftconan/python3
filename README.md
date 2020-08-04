@@ -16,7 +16,7 @@ Python3 study notes
     - [flask restful](#flask-restful)
     - [marshmallow](#marshmallow)
     - [flask sqlalchemy](#flask-sqlalchemy)
-    - [SQLAlchemy 1.2 documentation](#SQLAlchemy 1.2 documentation)
+    - [SQLAlchemy documentation](#SQLAlchemy documentation)
     - [flask mail](#flask-mail)
 ---
 
@@ -252,7 +252,7 @@ Python3 study notes
     3. Query Class(db = SQLAlchemy(query_class=GetOrQuery))
     4. Model Metaclass(db = SQLAlchemy(model_class=declarative_base(cls=Model, metaclass=CustomMeta, name='Model')))
   
-## SQLAlchemy 1.2 documentation
+## SQLAlchemy documentation
 ### Object Relational Tutorial
  
   
