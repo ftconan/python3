@@ -254,7 +254,6 @@ Python3 study notes
   
 ## SQLAlchemy-documentation
 ### Object Relational Tutorial
- 
   
 ## flask-mail
   * Quickstart
