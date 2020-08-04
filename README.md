@@ -16,7 +16,7 @@ Python3 study notes
     - [flask restful](#flask-restful)
     - [marshmallow](#marshmallow)
     - [flask sqlalchemy](#flask-sqlalchemy)
-    - [SQLAlchemy](#SQLAlchemy)
+    - [SQLAlchemy](#SQLAlchemy 1.2 documentation)
     - [flask mail](#flask-mail)
 ---
 
@@ -232,7 +232,7 @@ Python3 study notes
   * Extending Flask-RESTful
   * Intermediate Usage
 
-#3 marshmallow
+## marshmallow
   * Quickstart
   * nesting schemas
   * extending schemas
