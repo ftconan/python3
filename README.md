@@ -16,7 +16,7 @@ Python3 study notes
     - [flask restful](#flask-restful)
     - [marshmallow](#marshmallow)
     - [flask sqlalchemy](#flask-sqlalchemy)
-    - [SQLAlchemy](#SQLAlchemy 1.2 documentation)
+    - [SQLAlchemy 1.2 documentation](#SQLAlchemy 1.2 documentation)
     - [flask mail](#flask-mail)
 ---
 
