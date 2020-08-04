@@ -103,3 +103,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+flask_tutorial/.pytest_cache/*
+flask_tutorial/flaskr.egg-info/*
+flask_tutorial/instance/*
