@@ -164,6 +164,7 @@ Python3 study notes
  31. 用描述符来改写需要复用的@property方法
  32. 用__getattr__，__getattribute__和__setattr__实现按需生成的属性
  33. 用元类来验证子类
+ 34. 用元类来注解类的属性
  
 ## leetcode
 ### 算法
