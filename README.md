@@ -165,6 +165,8 @@ Python3 study notes
  32. 用__getattr__，__getattribute__和__setattr__实现按需生成的属性
  33. 用元类来验证子类
  34. 用元类来注解类的属性
+### 5. 并发和并行
+ 29. 用subprocess模块来管理子进程
  
 ## leetcode
 ### 算法
