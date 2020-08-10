@@ -175,6 +175,7 @@ Python3 study notes
  41. 考虑用concurrent.futures来实现真正的平行计算
 ### 6. 内置模块
  42. 用functools.wraps定义函数修饰器
+ 43. 考虑以contextlib和with语句来改写可复用的try/finally代码
  
 ## leetcode
 ### 算法
