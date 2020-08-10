@@ -172,6 +172,7 @@ Python3 study notes
  38. 在线程中使用Lock来防止数据竞争
  39. 用Queue来协调各线程之间的工作
  40. 考虑用协程来并发地运行多个函数
+ 41. 考虑用concurrent.futures来实现真正的平行计算
  
 ## leetcode
 ### 算法
