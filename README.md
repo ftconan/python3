@@ -173,6 +173,8 @@ Python3 study notes
  39. 用Queue来协调各线程之间的工作
  40. 考虑用协程来并发地运行多个函数
  41. 考虑用concurrent.futures来实现真正的平行计算
+### 6. 内置模块
+ 42. 用functools.wraps定义函数修饰器
  
 ## leetcode
 ### 算法
