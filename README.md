@@ -170,6 +170,7 @@ Python3 study notes
  36. 用subprocess模块来管理子进程
  37. 可以用线程来执行阻塞式I/O，但不要用它做平行计算
  38. 在线程中使用Lock来防止数据竞争
+ 39. 用Queue来协调各线程之间的工作
  
 ## leetcode
 ### 算法
