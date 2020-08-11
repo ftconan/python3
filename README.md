@@ -176,6 +176,8 @@ Python3 study notes
 ### 6. 内置模块
  42. 用functools.wraps定义函数修饰器
  43. 考虑以contextlib和with语句来改写可复用的try/finally代码
+ 44. 用copyreg实现可靠的pickle操作
+ 45. 应该用datetime模块来处理本地时间,而不是time模块
  
 ## leetcode
 ### 算法
