@@ -8,7 +8,8 @@ import os
 
 from flask import Flask
 
-from flaskr import db, auth, blog
+# from flaskr import db, auth, blog
+from flask_tutorial.flaskr import db, auth, blog
 
 
 def create_app(test_config=None):
@@ -42,13 +43,13 @@ def create_app(test_config=None):
         return 'Hello World!'
 
     # register the database commands
-    from flaskr import db
+    # from flaskr import db
 
     # init db
     db.init_app(app)
 
     # apply the blueprints to the app
-    from flaskr import auth, blog
+    # from flaskr import auth, blog
 
     # register auth blueprint module
     app.register_blueprint(auth.bp)
