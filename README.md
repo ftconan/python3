@@ -64,8 +64,13 @@ Python3 study notes
 15. qt_crawler
 
 ## Fluent Python
-### data structures
-1. list is not the only answer(arrays, memoryview, numpy and scipy, deque, asyncio, multiprocessing)
+### 1. Python数据类型
+1. 一摞Python风格的纸牌
+2. 如何使用特殊方法 
+3. 特殊方法一览
+4. 为什么len不是普通方法
+5. 本章小结
+6. 延伸阅读
 
 ### function as object
 1. list comprehension can replace (map, filter, reduce function)
