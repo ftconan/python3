@@ -71,6 +71,18 @@ Python3 study notes
 4. 为什么len不是普通方法
 5. 本章小结
 6. 延伸阅读
+### 2. 序列化构成数组
+1. 内置序列类型概览
+2. 列表推导和生成器表达式 
+3. 元组不仅仅是不可变的列表
+4. 切片
+5. 对序列使用+和*
+6. 序列的增量赋值
+7. list.sort方法和内置函数sorted
+8. 用bisect来管理已排序的序列
+9. 当列表不是首选
+10. 本章小结
+11. 延伸阅读
 
 ### function as object
 1. list comprehension can replace (map, filter, reduce function)
