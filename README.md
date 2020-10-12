@@ -83,6 +83,18 @@ Python3 study notes
 9. 当列表不是首选
 10. 本章小结
 11. 延伸阅读
+### 3. 字典和集合
+1. 泛映射类型
+2. 字典推导
+3. 常见映射类型方法
+4. 映射的弹性键查询
+5. 字典的变种
+6. 子类化UserDict
+7. 不可变映射类型
+8. 集合论 
+9. dict和set的背后
+10. 本章小结
+11. 延伸阅读
 
 ### function as object
 1. list comprehension can replace (map, filter, reduce function)
