@@ -95,11 +95,30 @@ Python3 study notes
 9. dict和set的背后
 10. 本章小结
 11. 延伸阅读
-
-### function as object
-1. list comprehension can replace (map, filter, reduce function)
-2. reduce is not built-in function in Python3(from fuctools import reduce)
-3. decorators
+### 4. 文本和字节序列
+1. 字符问题
+2. 字节概要
+3. 基本的编解码器
+4. 了解编解码问题
+5. 处理文本文件
+6. 为了正确比较而规范化Unicode字符串
+7. Unicode文本排序
+8. Unicode数据库 
+9. 支持字符串和字节序列的双模式API
+10. 本章小结
+11. 延伸阅读
+### 5. 一等函数
+1. 把函数视为对象
+2. 高阶函数
+3. 匿名函数
+4. 可调用对象
+5. 用户定义的可调用类型
+6. 函数内省
+7. 从定位参数到仅限关键字参数
+8. 获取关于参数的信息 
+9. 函数注解
+10. 本章小结
+11. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
