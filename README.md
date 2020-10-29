@@ -147,6 +147,18 @@ Python3 study notes
 7. Python对不可变类型施加的把戏
 8. 本章小结 
 9. 延伸阅读
+### 9. 对象引用、可变性和垃圾回收
+1. 对象表示形式
+2. 再谈向量类
+3. 备选构造方法
+4. classmethod与staticmethod
+5. 格式化显示
+6. 可散列的Vector2d
+7. Python的私有属性和“受保护的”属性
+8. 使用 __slots__ 类属性节省空间
+9. 覆盖类属性 
+10. 本章小结 
+11. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
