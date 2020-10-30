@@ -159,6 +159,16 @@ Python3 study notes
 9. 覆盖类属性 
 10. 本章小结 
 11. 延伸阅读
+### 10. 序列的修改、散列和切片
+1. Vector类：用户定义的序列类型
+2. Vector类第1版：与Vector2d类兼容
+3. 协议和鸭子类型
+4. Vector类第2版：可切片的序列
+5. Vector类第3版：动态存取属性
+6. Vector类第4版：散列和快速等值测试
+7. Vector类第5版：格式化
+8. 本章小结
+9. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
