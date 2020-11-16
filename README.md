@@ -169,6 +169,19 @@ Python3 study notes
 7. Vector类第5版：格式化
 8. 本章小结
 9. 延伸阅读
+### 11. 接口：从协议到抽象基类
+1. Python文化中的接口和协议
+2. Python喜欢序列
+3. 使用猴子补丁在运行时实现协议
+4. Alex Martelli的水禽
+5. 定义抽象基类的子类
+6. 标准库中的抽象基类
+7. 定义并使用一个抽象基类
+8. Tombola子类的测试方法
+9. Python使用register的方式
+10. 鹅的行为有可能像鸭子
+11. 本章小结
+12. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
