@@ -12,6 +12,8 @@ import reprlib
 import math
 from array import array
 
+from fluent_python.pythonic_object.vector2d_v0 import Vector2d
+
 
 class Vector:
     """
@@ -39,7 +41,18 @@ class Vector:
         return bytes([ord(self.typecode)]) + bytes(self._components)
 
     def __eq__(self, other):
-        return tuple(self) == tuple(other)
+        # return tuple(self) == tuple(other)
+        if isinstance(other, Vector):
+            return (len(self) == len(other)) and all(a == b for a, b in zip(self, other))
+        else:
+            return NotImplemented
+
+    def __ne__(self, other):
+        eq_result = self == other
+        if eq_result is NotImplemented:
+            return NotImplemented
+        else:
+            return not eq_result
 
     def __hash__(self):
         hashes = (hash(x) for x in self._components)
@@ -116,6 +129,34 @@ class Vector:
 
         return cls(memv)
 
+    def __add__(self, other):
+        try:
+            pairs = itertools.zip_longest(self, other, fillvalue=0)
+            return Vector(a + b for a, b in pairs)
+        except TypeError:
+            return NotImplemented
+
+    def __radd__(self, other):
+        return self + other
+
+    def __mul__(self, scalar):
+        if isinstance(scalar, numbers.Real):
+            return Vector(n * scalar for n in self)
+        else:
+            return NotImplemented
+
+    def __rmul__(self, scalar):
+        return self * scalar
+
+    def __matmul__(self, other):
+        try:
+            return sum(a * b for a, b in zip(self, other))
+        except TypeError:
+            return NotImplemented
+
+    def __rmatmul__(self, other):
+        return self @ other
+
 
 if __name__ == '__main__':
     v1 = Vector([3, 4, 5])
@@ -123,3 +164,42 @@ if __name__ == '__main__':
     print(v1[0], v1[-1])
     v7 = Vector(range(7))
     print(v7[1:4])
+
+    # add
+    v1 = Vector([3, 4, 5])
+    print(v1 + (10, 20, 30))
+    v2d = Vector2d(1, 2)
+    print(v1 + v2d)
+    print((10, 20, 30) + v1)
+    print(v2d + v1)
+    # print(v1 + 1)
+    # print(v1 + 'ABC')
+
+    # mul
+    v1 = Vector([1.0, 2.0, 3.0])
+    print(14 * v1)
+    print(v1 * True)
+    from fractions import Fraction
+    print(v1 * Fraction(1, 3))
+
+    # matmul
+    va = Vector([1, 2, 3])
+    vz = Vector([5, 6, 7])
+    print(va @ vz == 38.0)
+    print([10, 20, 30] @ vz)
+    # print(va @ 3)
+
+    # eq
+    va = Vector([1.0, 2.0, 3.0])
+    vb = Vector(range(1, 4))
+    print(va == vb)
+    vc = Vector([1, 2])
+    v2d = Vector2d(1, 2)
+    print(vc == v2d)
+    t3 = (1, 2, 3)
+    print(va == t3)
+
+    # ne
+    print(va != vb)
+    print(vc != v2d)
+    print(va != (1, 2, 3))
