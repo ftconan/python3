@@ -18,6 +18,7 @@ Python3 study notes
     - [flask sqlalchemy](#flask-sqlalchemy)
     - [SQLAlchemy documentation](#SQLAlchemy-documentation)
     - [flask mail](#flask-mail)
+    - [Django](#Django)
 ---
 
 ## python3 practice
@@ -199,6 +200,23 @@ Python3 study notes
 6. 增量赋值运算符
 7. 本章小结
 8. 延伸阅读
+### 14. 可迭代的对象、迭代器和生成器
+1. Sentence类第1版：单词序列
+2. 可迭代的对象与迭代器的对比
+3. Sentence类第2版：典型的迭代器
+4. Sentence类第3版：生成器函数
+5. Sentence类第4版：惰性实现
+6. Sentence类第5版：生成器表达式
+7. 何时使用生成器表达式
+8. 另一个示例：等差数列生成器
+9. 标准库中的生成器函数
+10. Python 3.3中新出现的句法：yield from
+11. 可迭代的归约函数
+12. 深入分析iter函数
+13. 案例分析：在数据库转换工具中使用生成器
+14. 把生成器当成协程
+15. 本章小结
+16. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
@@ -416,7 +434,21 @@ Python3 study notes
   
 ## flask-mail
   * Quickstart
-
+  
+## Django
+1. app
+ * python -m django --version
+ * django-admin startproject mysite
+ * python manage.py startapp polls
+ * python manage.py runserver 0:8000
+2. migrate
+ * python manage.py migrate
+ * python manage.py makemigrations polls
+ * python manage.py sqlmigrate polls 0001
+3. create user
+ * python manage.py createsuperuser
+    
 ## requirement.txt
   * pip freeze > requirements.txt
   * pip install -r requirements.txt
+  * pip install -r requirements.txt -i https://pypi.douban.com/simple/
