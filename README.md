@@ -448,7 +448,7 @@ Python3 study notes
 3. create user
  * python manage.py createsuperuser
     
-## requirement.txt
+## requirements.txt
   * pip freeze > requirements.txt
   * pip install -r requirements.txt
   * pip install -r requirements.txt -i https://pypi.douban.com/simple/
