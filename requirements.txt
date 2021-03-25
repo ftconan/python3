@@ -33,7 +33,7 @@ PyPDF2==1.26.0
 pytest==6.0.1
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==5.1.1
+PyYAML==5.4
 reportlab==3.5.32
 requests==2.22.0
 six==1.11.0
