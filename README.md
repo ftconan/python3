@@ -436,17 +436,19 @@ Python3 study notes
   * Quickstart
   
 ## Django
-1. app
+### 1. app
  * python -m django --version
  * django-admin startproject mysite
  * python manage.py startapp polls
  * python manage.py runserver 0:8000
-2. migrate
+### 2. migrate
  * python manage.py migrate
  * python manage.py makemigrations polls
  * python manage.py sqlmigrate polls 0001
-3. create user
+### 3. create user
  * python manage.py createsuperuser
+### 4. test
+ * python manage.py test polls 
     
 ## requirements.txt
   * pip freeze > requirements.txt
