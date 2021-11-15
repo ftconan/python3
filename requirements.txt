@@ -1,11 +1,14 @@
-aiohttp>=3.7.4
+aiohttp==3.8.0
+aiosignal==1.2.0
 asgiref==3.3.1
 async-timeout==3.0.1
 attrs==19.1.0
 certifi==2019.6.16
 chardet==3.0.4
+charset-normalizer==2.0.7
 click==7.1.2
 Django==3.1.7
+frozenlist==1.2.0
 graphviz==0.11.1
 greenlet==0.4.15
 html5lib==1.0.1
@@ -14,7 +17,7 @@ idna-ssl==1.1.0
 importlib-metadata==1.7.0
 iniconfig==1.0.1
 itsdangerous==1.1.0
-jinja2>=2.11.3
+Jinja2==3.0.3
 kiwisolver==1.1.0
 MarkupSafe==1.1.1
 more-itertools==8.5.0
@@ -23,7 +26,7 @@ numpy==1.15.4
 objgraph==3.4.1
 packaging==20.4
 pdfkit==0.6.1
-Pillow>=8.1.1
+Pillow==8.4.0
 pluggy==0.13.1
 psutil==5.6.6
 py==1.9.0
@@ -33,7 +36,8 @@ PyPDF2==1.26.0
 pytest==6.0.1
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML>=5.4
+PyYAML==6.0
+redis==3.5.3
 reportlab==3.5.32
 requests==2.22.0
 six==1.11.0

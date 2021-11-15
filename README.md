@@ -19,6 +19,7 @@ Python3 study notes
     - [SQLAlchemy documentation](#SQLAlchemy-documentation)
     - [flask mail](#flask-mail)
     - [Django](#Django)
+    - [Redis In Action](#Redis-In-Action)
 ---
 
 ## python3 practice
@@ -449,6 +450,19 @@ Python3 study notes
  * python manage.py createsuperuser
 ### 4. test
  * python manage.py test polls 
+ 
+## Redis In Action
+### 1. 初识Redis
+### 2. 使用Redis构建Web应用
+### 3. Redis命令
+### 4. 数据安全与性能保障
+### 5. 使用Redis构建支持程序
+### 6. 使用Redis构建应用程序组件
+### 7. 基于搜索的应用程序
+### 8. 构建简单社交网站
+### 9. 降低内存占用
+### 10. 扩展Redis
+### 11. Redis的Lua脚本编程
     
 ## requirements.txt
   * pip freeze > requirements.txt
