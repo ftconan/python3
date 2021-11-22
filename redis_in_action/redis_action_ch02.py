@@ -266,7 +266,7 @@ class Inventory(object):
 class TestCh02(unittest.TestCase):
     def setUp(self):
         import redis
-        self.conn = redis.Redis(db=15, password='Xj3.14164')
+        self.conn = redis.Redis(db=15, password='123456')
 
     def tearDown(self):
         conn = self.conn
