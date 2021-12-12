@@ -218,6 +218,13 @@ Python3 study notes
 14. 把生成器当成协程
 15. 本章小结
 16. 延伸阅读
+### 15. 上下文管理器和else块
+1. 先做这个，再做那个：if语句之外的else块
+2. 上下文管理器和with块
+3. contextlib模块中的实用工具
+4. 使用@contextmanager
+5. 本章小结
+6. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
