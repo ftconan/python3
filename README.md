@@ -237,6 +237,14 @@ Python3 study notes
 9. 使用案例：使用协程做离散事件仿真
 10. 本章小结
 11. 延伸阅读
+### 17. 使用期物处理并发
+1. 示例：网络下载的三种风格
+2. 阻塞型I/O和GIL
+3. 使用concurrent.futures模块启动进程
+4. 实验Executor.map方法
+5. 显示下载进度并处理错误
+6. 本章小结
+7. 延伸阅读
 
 ## Python Tricks
 ### 1. Introduction
