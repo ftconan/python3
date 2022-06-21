@@ -23,7 +23,7 @@ kiwisolver==1.1.0
 MarkupSafe==2.0.1
 more-itertools==8.5.0
 multidict==4.5.2
-numpy==1.15.4
+numpy==1.22.0
 objgraph==3.4.1
 packaging==20.4
 pdfkit==0.6.1
