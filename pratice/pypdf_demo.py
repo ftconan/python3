@@ -19,7 +19,7 @@ def compress_pdf(input_path, output_path):
         # ⚠️ This has to be done on the writer, not the reader!
         page.compress_content_streams()  # This is CPU intensive!
 
-    writer.remove_images()
+    # writer.remove_images()
 
     with open(output_path, "wb") as f:
         writer.write(f)
@@ -33,6 +33,8 @@ def pdf2img(input_path, output_path):
 
     # 从文件路径转换
     images = convert_from_path(input_path, size=(1654, 2339))
+    # images = convert_from_path(input_path, size=(800, 1080))
+    # images = convert_from_path(input_path)
 
     # 或从字节流转换
     # with open('input.pdf', 'rb') as file:
@@ -76,20 +78,20 @@ def traverse_folder(folder_path):
 
 if __name__ == '__main__':
     # 示例用法
-    # input_path = '/Users/magician/Projects/github/python3/data/9664100169510.pdf'  # 输入PDF文件路径
-    # output_path = '/Users/magician/Projects/github/python3/data/output.pdf'  # 压缩后的PDF文件路径
+    # input_path = '/Users/magician/Projects/github/python3/data/180100170542.pdf'  # 输入PDF文件路径
+    # output_path = '/Users/magician/Projects/github/python3/data/output1.pdf'  # 压缩后的PDF文件路径
     # compress_pdf(input_path, output_path)
     #
     # pdf -> img
-    # input_path = '/Users/magician/Projects/github/python3/data/9664100169510.pdf'  # 输入PDF文件路径
-    # output_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
-    # pdf2img(input_path, output_path1)
-
-    # 创建PDF
-    # 遍历文件夹
-    input_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
-    output_path = '/Users/magician/Projects/github/python3/data/output.pdf'
-    image_paths1 = traverse_folder(input_path1)
-    image_paths = sorted(image_paths1, key=lambda x: int(
-        x.replace('/Users/magician/Projects/github/python3/data/pdfimg/', '').replace('.jpg', '')))
-    create_pdf(image_paths, output_path)
+    input_path = '/Users/magician/Projects/github/python3/data/180100170542.pdf'  # 输入PDF文件路径
+    output_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
+    pdf2img(input_path, output_path1)
+    #
+    # # 创建PDF
+    # # 遍历文件夹
+    # input_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
+    # output_path = '/Users/magician/Projects/github/python3/data/output1.pdf'
+    # image_paths1 = traverse_folder(input_path1)
+    # image_paths = sorted(image_paths1, key=lambda x: int(
+    #     x.replace('/Users/magician/Projects/github/python3/data/pdfimg/', '').replace('.jpg', '')))
+    # create_pdf(image_paths, output_path)
