@@ -32,7 +32,8 @@ def pdf2img(input_path, output_path):
     from pdf2image import convert_from_path, convert_from_bytes
 
     # 从文件路径转换
-    images = convert_from_path(input_path, size=(1654, 2339))
+    # images = convert_from_path(input_path, size=(1654, 2339))
+    images = convert_from_path(input_path)
     # images = convert_from_path(input_path, size=(800, 1080))
     # images = convert_from_path(input_path)
 
@@ -81,17 +82,17 @@ if __name__ == '__main__':
     # input_path = '/Users/magician/Projects/github/python3/data/180100170542.pdf'  # 输入PDF文件路径
     # output_path = '/Users/magician/Projects/github/python3/data/output1.pdf'  # 压缩后的PDF文件路径
     # compress_pdf(input_path, output_path)
-    #
+    # #
     # pdf -> img
-    input_path = '/Users/magician/Projects/github/python3/data/180100170542.pdf'  # 输入PDF文件路径
-    output_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
-    pdf2img(input_path, output_path1)
+    # input_path = '/Users/magician/Projects/github/python3/data/高中英语语法专练292.pdf'  # 输入PDF文件路径
+    # output_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
+    # pdf2img(input_path, output_path1)
     #
-    # # 创建PDF
-    # # 遍历文件夹
-    # input_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
-    # output_path = '/Users/magician/Projects/github/python3/data/output1.pdf'
-    # image_paths1 = traverse_folder(input_path1)
-    # image_paths = sorted(image_paths1, key=lambda x: int(
-    #     x.replace('/Users/magician/Projects/github/python3/data/pdfimg/', '').replace('.jpg', '')))
-    # create_pdf(image_paths, output_path)
+    # 创建PDF
+    # 遍历文件夹
+    input_path1 = '/Users/magician/Projects/github/python3/data/pdfimg'
+    output_path = '/Users/magician/Projects/github/python3/data/高中英语语法专练.pdf'
+    image_paths1 = traverse_folder(input_path1)
+    image_paths = sorted(image_paths1, key=lambda x: int(
+        x.replace('/Users/magician/Projects/github/python3/data/pdfimg/', '').replace('.jpg', '')))
+    create_pdf(image_paths, output_path)
